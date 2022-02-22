@@ -178,7 +178,7 @@ export const RealmsEmpire = (props: Props) => {
                 });
                 setLimit(limit + 25);
               }}
-              className="px-4 py-2 bg-gray-600/40 rounded hover:bg-gray-600/60"
+              className="px-4 py-2 rounded bg-gray-600/40 hover:bg-gray-600/60"
             >
               {loading ? "Loading" : "Load more"}
             </button>
