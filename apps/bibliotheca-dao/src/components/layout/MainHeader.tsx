@@ -20,12 +20,12 @@ export const MainHeader = () => {
     //   title: 'DAO',
     //   icon: <Discord className="self-center w-6 mr-3 fill-current" />,
     // },
-    {
-      title: 'Hack',
-      icon: '',
-      link: '/hack',
-      class: ' hidden sm:block',
-    },
+    // {
+    //   title: 'Hack',
+    //   icon: '',
+    //   link: '/hack',
+    //   class: ' hidden sm:block',
+    // },
     {
       title: 'Staking',
       icon: '',
@@ -112,9 +112,9 @@ export const MainHeader = () => {
             }
           `}
           >
-            <Link className={`hover:text-gray-400`} href="/hack">
+            {/* <Link className={`hover:text-gray-400`} href="/hack">
               Hack
-            </Link>
+          </Link> */}
             <a
               href="https://staking.bibliothecadao.xyz/"
               className={`hover:text-gray-400`}
@@ -125,7 +125,7 @@ export const MainHeader = () => {
               Claim
             </Link>
             <a
-              href="https://github.com/BibliothecaForAdventurers/"
+              href="https://github.com/BibliothecaDao/"
               target={'_blank'}
               className={`hover:text-gray-400`}
               rel="noreferrer"
